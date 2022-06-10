@@ -13,6 +13,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using System.Collections.Generic;
 using Api.CrossCutting.Mappings;
 using AutoMapper;
+using Api.Data.Context;
+using Microsoft.EntityFrameworkCore;
 
 namespace application
 {
@@ -88,19 +90,19 @@ namespace application
                 c.SwaggerDoc("v1", new OpenApiInfo
                 {
                     Version = "v1",
-                    Title = "Curso de API com AspNetCore 3.1 - Na Prática",
-                    Description = "Arquitetura DDD",
-                    TermsOfService = new Uri("http://www.mfrinfo.com.br"),
+                    Title = "API modelo DDD (Domain-driven Design) AspNetCore 3.1",
+                    Description = "Modelo de API em DDD (Domain-driven Design)",
+                    TermsOfService = new Uri("https://github.com/Arthurfcf/Trabalho-conclus-o-de-curso.git"),
                     Contact = new OpenApiContact
                     {
-                        Name = "Marcos Fabricio Rosa",
-                        Email = "mfr@mail.com",
-                        Url = new Uri("http://www.mfrinfo.com.br")
+                        Name = "Arthur Fernando Carvalho Ferreira",
+                        Email = "arthurcarvalhof@gmail.com",
+                        Url = new Uri("https://github.com/Arthurfcf/Trabalho-conclus-o-de-curso.git")
                     },
                     License = new OpenApiLicense
                     {
                         Name = "Termo de Licença de Uso",
-                        Url = new Uri("http://www.mfrinfo.com.br")
+                        Url = new Uri("https://github.com/Arthurfcf/Trabalho-conclus-o-de-curso.git")
                     }
                 });
 
@@ -136,7 +138,7 @@ namespace application
             app.UseSwagger();
             app.UseSwaggerUI(c =>
             {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Curso de API com AspNetCore 3.1");
+                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Trabalho Conclusão De Curso SENAI");
                 c.RoutePrefix = string.Empty;
             });
 
@@ -148,6 +150,18 @@ namespace application
             {
                 endpoints.MapControllers();
             });
+
+            if (Environment.GetEnvironmentVariable("MiGRATION").ToLower()=="APLICAR".ToLower())
+            {
+                using (var service = app.ApplicationServices.GetRequiredService<IServiceScopeFactory>()
+                                                            .CreateScope())
+                {
+                    using (var context = service.ServiceProvider.GetService<MyContext>())
+                    {
+                        context.Database.Migrate();
+                    }
+                }
+            }
         }
     }
 }
