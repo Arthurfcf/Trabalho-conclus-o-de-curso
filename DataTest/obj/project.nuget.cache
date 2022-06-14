@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ZJya2eVRC7W7XkFpI1lXCO85EMglttXAkMt5RuHr37rSYdaMa7eAOOtVqAjM8kWRPpoXhmwA/e6IkLSdAN/hQQ==",
+  "dgSpecHash": "zpE/tC6Gx6N3on/Veu6EPhihokydIuCzesTtvKUMXxB2cErcQysxWmv88wrMMeFoxzuvDZki6Dw0t/yA7mwPpg==",
   "success": true,
   "projectFilePath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\DataTest\\DataTest.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.0.1\\automapper.extensions.microsoft.dependencyinjection.8.0.1.nupkg.sha512",
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\arthur.ferreira\\.nuget\\packages\\faker.netcore\\1.0.2\\faker.netcore.1.0.2.nupkg.sha512",
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\3.1.6\\microsoft.aspnetcore.authentication.jwtbearer.3.1.6.nupkg.sha512",
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",

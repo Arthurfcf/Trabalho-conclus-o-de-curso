@@ -45,9 +45,9 @@ C:\Users\arthur.ferreira\Desktop\TCC\src\Api.Data\obj\Debug\netcoreapp3.1\Data.c
 C:\Users\arthur.ferreira\Desktop\TCC\src\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\arthur.ferreira\Desktop\TCC\src\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
 C:\Users\arthur.ferreira\Desktop\TCC\src\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
-C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
-C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
-C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.deps.json
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.json
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.runtimeconfig.dev.json
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.dll
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Data.pdb
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\bin\Debug\netcoreapp3.1\Domain.dll
@@ -57,7 +57,7 @@ C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\D
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfoInputs.cache
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.AssemblyInfo.cs
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CoreCompileInputs.cache
-C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.csproj.CopyComplete
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.dll
 C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.pdb
-C:\Users\arthur.ferreira\Source\Repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Data\obj\Debug\netcoreapp3.1\Data.genruntimeconfig.cache

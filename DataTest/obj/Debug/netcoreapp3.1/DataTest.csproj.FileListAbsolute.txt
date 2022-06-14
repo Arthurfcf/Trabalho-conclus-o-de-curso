@@ -2,9 +2,9 @@ C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\D
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\application.deps.json
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\application.runtimeconfig.json
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\application.runtimeconfig.dev.json
-C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\application.StaticWebAssets.xml
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\application.StaticWebAssets.xml
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\application.exe
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll
@@ -16,6 +16,7 @@ C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\D
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\DataTest.pdb
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\Faker.NETCore.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
@@ -69,6 +70,7 @@ C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\D
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\xunit.assert.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\xunit.core.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\xunit.execution.dotnet.dll
+C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\de-DE\Faker.NETCore.resources.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
