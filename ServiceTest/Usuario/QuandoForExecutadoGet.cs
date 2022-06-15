@@ -13,7 +13,7 @@ namespace ServiceTest.Usuario
 
         private Mock<IUserService> _serviceMock;
 
-        [Fact(DisplayName = "É Possivel Executar o Metodo GET." )]
+        [Fact(DisplayName = "É Possivel Executar o Método GET." )]
 
         public async Task E_Possivel_Executar_Metodo_Get()
         {

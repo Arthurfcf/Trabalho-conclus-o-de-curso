@@ -16,7 +16,7 @@ namespace ServiceTest.Usuario
         private Mock<IUserService> _serviceMock;
 
 
-        [Fact(DisplayName = "É Possivel Executar o Metodo GETAll.")]
+        [Fact(DisplayName = "É Possivel Executar o Método GETAll.")]
 
         public async Task E_Possivel_Executar_Metodo_GetAll()
         {
