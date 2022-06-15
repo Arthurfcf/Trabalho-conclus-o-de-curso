@@ -70,15 +70,15 @@ namespace ServiceTest.Usuario
                 userDtoUpdate = new UserDtoUpdate
                 {
                     Id = IdUsuario,
-                    Name = NomeUsuario,
-                    Email = EmailUsuario
+                    Name = NomeAlterado,
+                    Email = EmailAlterado
                 };
 
                 userDtoUpdateResult = new UserDtoUpdateResult
                 {
                     Id= IdUsuario,
-                    Name = NomeUsuario,
-                    Email = EmailUsuario,
+                    Name = NomeAlterado,
+                    Email = EmailAlterado,
                     UpdateAt = DateTime.UtcNow
                 };
             }
