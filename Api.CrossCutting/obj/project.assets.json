@@ -5354,9 +5354,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
       "projectName": "CrossCutting",
-      "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
+      "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
       "packagesPath": "C:\\Users\\arthur.ferreira\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
@@ -5382,14 +5382,14 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "projectReferences": {
-            "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
-              "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj"
+            "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
+              "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj"
             },
-            "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
+            "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
+              "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
             },
-            "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj": {
-              "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj"
+            "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj": {
+              "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj"
             }
           }
         }

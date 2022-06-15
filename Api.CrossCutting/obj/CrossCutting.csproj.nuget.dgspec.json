@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj": {}
+    "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj": {
+    "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
         "projectName": "CrossCutting",
-        "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
+        "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\CrossCutting.csproj",
         "packagesPath": "C:\\Users\\arthur.ferreira\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
@@ -35,14 +35,14 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj"
+              "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
               },
-              "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj"
+              "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj": {
+                "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj"
               }
             }
           }
@@ -85,12 +85,12 @@
         }
       }
     },
-    "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
+    "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj",
+        "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj",
         "packagesPath": "C:\\Users\\arthur.ferreira\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\obj\\",
         "projectStyle": "PackageReference",
@@ -116,8 +116,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
               }
             }
           }
@@ -172,12 +172,12 @@
         }
       }
     },
-    "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
+    "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj",
+        "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\arthur.ferreira\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\obj\\",
         "projectStyle": "PackageReference",
@@ -239,12 +239,12 @@
         }
       }
     },
-    "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj": {
+    "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj",
+        "projectUniqueName": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj",
+        "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj",
         "packagesPath": "C:\\Users\\arthur.ferreira\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\obj\\",
         "projectStyle": "PackageReference",
@@ -270,11 +270,11 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
-                "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj"
+              "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj": {
+                "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Data\\Data.csproj"
               },
-              "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
+              "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj"
               }
             }
           }

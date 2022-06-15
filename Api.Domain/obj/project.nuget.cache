@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gxklC0p3AlRbCnpDsTmf+DJ8s6ICOeAV6IvaaU3wO02wMHKvtJJSiC0kISt7MBKXo+r6bxt5WwlbG1AuK53iLw==",
+  "dgSpecHash": "lOs6g3vi5LE3vsKlacKlE1isWhZTxCPUfD8IWcXhWnyeVo521QseprzSETBJa0EjGQojn+Q1zt9/WLJ0Dt9hkA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj",
+  "projectFilePath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Domain\\Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\6.7.1\\microsoft.identitymodel.jsonwebtokens.6.7.1.nupkg.sha512",

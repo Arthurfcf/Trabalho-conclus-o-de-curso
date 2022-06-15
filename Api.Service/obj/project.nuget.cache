@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SGG73ayhtBhkOsHvHgh0ihQEDw53GjEe6waL8ipYUpMWCoqcnqYpy0vG/T85QtXm4Cho8R3QujrLmZpUD++vwg==",
+  "dgSpecHash": "pVNVOGaB4KlLYnoITncLgYoHaYNJDkKbiXCQj3u5Kr+dreoNjFR32ZMyuJGY8r8gnOfT24OtE7TG9hj7XWRd0g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\arthur.ferreira\\Source\\Repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj",
+  "projectFilePath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Service\\Service.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
     "C:\\Users\\arthur.ferreira\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
