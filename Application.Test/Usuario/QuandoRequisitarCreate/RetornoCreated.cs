@@ -11,9 +11,10 @@ using Xunit;
 
 namespace Application.Test.Usuario.QuandoRequisitarCreate
 {
-    public class Retorno_Created
+    public class RetornoCreated
     {
         private UsersController _controller;
+
         [Fact(DisplayName = "É possivel Realizar o Created.")]
         public async Task E_Possivel_Invocar_a_Controller_Create()
         {

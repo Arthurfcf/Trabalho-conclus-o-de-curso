@@ -1,6 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Api.Application",
+    "\\Api.Application\\Controllers",
+    "\\Api.Data",
+    "\\Api.Data\\Context",
+    "\\Application.Test",
+    "\\Application.Test\\Usuario",
+    "\\Application.Test\\Usuario\\QuandoRequisitarCreate",
+    "\\Application.Test\\Usuario\\QuandoRequisitarDelete",
+    "\\Application.Test\\Usuario\\QuandoRequisitarUpdate"
   ],
+  "SelectedNode": "\\Application.Test\\Usuario\\QuandoRequisitarDelete\\RetornoBadRequest.cs",
   "PreviewInSolutionExplorer": false
 }

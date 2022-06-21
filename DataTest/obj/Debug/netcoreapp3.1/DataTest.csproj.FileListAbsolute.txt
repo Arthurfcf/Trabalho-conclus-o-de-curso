@@ -4,7 +4,6 @@ C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\D
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\Application.runtimeconfig.dev.json
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\Application.StaticWebAssets.xml
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\Application.exe
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\DataTest\bin\Debug\netcoreapp3.1\xunit.runner.reporters.netcoreapp10.dll

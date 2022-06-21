@@ -11,7 +11,7 @@ using Xunit;
 
 namespace Application.Test.Usuario.QuandoRequisitarCreate
 {
-    public class Retorno_BadRequest
+    public class RetornoBadRequest
     {
         private UsersController _controller;
         [Fact(DisplayName = "É possivel Realizar o Created.")]

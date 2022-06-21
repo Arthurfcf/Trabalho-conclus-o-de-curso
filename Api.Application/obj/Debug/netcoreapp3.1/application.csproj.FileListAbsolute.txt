@@ -239,7 +239,6 @@ C:\Users\arthur.ferreira\Desktop\TCC\src\Api.Application\obj\Debug\netcoreapp3.1
 C:\Users\arthur.ferreira\Desktop\TCC\src\Api.Application\obj\Debug\netcoreapp3.1\application.genruntimeconfig.cache
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Application\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Application\bin\Debug\netcoreapp3.1\appsettings.json
-C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Application\bin\Debug\netcoreapp3.1\Application.StaticWebAssets.xml
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Application\bin\Debug\netcoreapp3.1\Application.exe
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Application\bin\Debug\netcoreapp3.1\Application.deps.json
 C:\Users\arthur.ferreira\source\repos\Trabalho-conclus-o-de-curso\Api.Application\bin\Debug\netcoreapp3.1\Application.runtimeconfig.json

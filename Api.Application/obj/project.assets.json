@@ -5656,9 +5656,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Application\\application.csproj",
-      "projectName": "application",
-      "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Application\\application.csproj",
+      "projectUniqueName": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Application\\Application.csproj",
+      "projectName": "Application",
+      "projectPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Application\\Application.csproj",
       "packagesPath": "C:\\Users\\arthur.ferreira\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\arthur.ferreira\\source\\repos\\Trabalho-conclus-o-de-curso\\Api.Application\\obj\\",
       "projectStyle": "PackageReference",
