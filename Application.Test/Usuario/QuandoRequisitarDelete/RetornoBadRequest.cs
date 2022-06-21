@@ -28,14 +28,13 @@ namespace Application.Test.Usuario.QuandoRequisitarDelete
             var nome = Faker.Name.FullName();
             var email = Faker.Internet.Email();
 
-
             serviceMoke.Setup(m => m.Delete(It.IsAny<Guid>())).ReturnsAsync(false);
             _controller = new UsersController(serviceMoke.Object);
             _controller.ModelState.AddModelError("Id", "Formato inválido");
 
             var result = await _controller.Delete(default(Guid));
             Assert.True(result is BadRequestObjectResult);
-            Assert.True(_controller.ModelState.IsValid);
+            Assert.False(_controller.ModelState.IsValid);
 
         }
     }
