@@ -25,7 +25,16 @@ namespace Api.Data.Context
                     Email = "administrador@gmail.com",
                     CreateAt = DateTime.Now,
                     UpdateAt = DateTime.Now,
-                });
+                },
+                 new UserEntity
+                 {
+                     Id = Guid.NewGuid(),
+                     Name = "Medico",
+                     Email = "medico@gmail.com",
+                     CreateAt = DateTime.Now,
+                     UpdateAt = DateTime.Now,
+                 }
+                );
         }
 
     }
