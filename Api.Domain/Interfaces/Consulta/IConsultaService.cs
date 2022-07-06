@@ -12,5 +12,7 @@ namespace Domain.Interfaces.Consulta
 
         Task<IEnumerable<ConsultaDto>> GetAll();
 
+
+
     }
 }

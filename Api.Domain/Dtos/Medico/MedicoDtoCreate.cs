@@ -7,6 +7,7 @@ namespace Domain.Dtos.Medico
 {
   public  class MedicoDtoCreate
     {
+
         public Guid Id { get; set; }
         [Required]
         [MaxLength(11, ErrorMessage = "Formato de ter no máximo 11 caracteres ")]
@@ -30,7 +31,7 @@ namespace Domain.Dtos.Medico
         [Required]
         [MaxLength(8, ErrorMessage = "Formato de ter no máximo 8 caracteres ")]
         [MinLength(8, ErrorMessage = "Formato deve ter no minimo 8 caracteres")]
-        [Range(0, int.MaxValue, ErrorMessage = "Não pode ser número negativo negativo")]
+        [Range(0, int.MaxValue, ErrorMessage = "Não pode ser número negativo ")]
         public string CEP { get; set; }
 
         public int NumeroPredial { get; set; }

@@ -2,7 +2,7 @@ using System;
 
 namespace Api.Domain.Models
 {
-    public class UserModel
+    public class UserModel 
     {
         private Guid _id;
         public Guid Id

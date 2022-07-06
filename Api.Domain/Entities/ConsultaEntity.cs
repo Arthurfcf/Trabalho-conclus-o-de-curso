@@ -7,6 +7,7 @@ namespace Domain.Entities
 {
     public class ConsultaEntity : BaseEntity
     {
+       
         public char IsolamentoSocial { get; set; }
 
         public DateTime InicioIsolamentoSocial { get; set; }

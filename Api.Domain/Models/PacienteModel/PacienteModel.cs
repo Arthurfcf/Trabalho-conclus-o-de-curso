@@ -6,6 +6,7 @@ namespace Domain.Models.PacienteModel
 {
    public class PacienteModel : BaseModel
     {
+       
         private string _cpf;
 
         public string CPF

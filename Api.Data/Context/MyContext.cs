@@ -1,5 +1,8 @@
 using Api.Data.Mapping;
 using Api.Domain.Entities;
+using Data.Mapping;
+using Data.Seeds;
+using Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System;
 
@@ -17,6 +20,8 @@ namespace Api.Data.Context
         {
             base.OnModelCreating(modelBuilder);
             modelBuilder.Entity<UserEntity>(new UserMap().Configure);
+            modelBuilder.Entity<MedicoEntity>(new MedicoMap().Configure);
+            modelBuilder.Entity<PacienteEntity>(new PacienteMap().Configure);
             modelBuilder.Entity<UserEntity>().HasData(
                 new UserEntity
                 {
@@ -35,7 +40,11 @@ namespace Api.Data.Context
                      UpdateAt = DateTime.Now,
                  }
                 );
+
+            PacienteSeeds.Pacientes(modelBuilder);
+            MedicoSeeds.Medico(modelBuilder);
         }
 
+      
     }
 }

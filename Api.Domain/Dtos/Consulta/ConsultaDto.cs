@@ -15,7 +15,5 @@ namespace Domain.Dtos.Consulta
         public DateTime FimIsolamentoSocial { get; set; }
 
         public char PessoaViva { get; set; }
-
-       
     }
 }

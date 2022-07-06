@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Domain.Interfaces.Services.Medico
 {
-   public interface IMedicoService
+   public interface IMedicoService 
     {
         Task<MedicoDto> Get(string crm);
 

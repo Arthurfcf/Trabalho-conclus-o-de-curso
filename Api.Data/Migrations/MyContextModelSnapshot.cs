@@ -51,12 +51,340 @@ namespace Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("234e1ca1-15c0-4047-a39d-71ae0d889a2a"),
-                            CreateAt = new DateTime(2022, 6, 9, 18, 15, 55, 70, DateTimeKind.Local).AddTicks(1213),
-                            Email = "administrador@gmail",
+                            Id = new Guid("e5defb03-828f-4e74-8613-a7572c935c93"),
+                            CreateAt = new DateTime(2022, 7, 3, 17, 51, 46, 881, DateTimeKind.Local).AddTicks(8758),
+                            Email = "administrador@gmail.com",
                             Name = "Administrador",
-                            UpdateAt = new DateTime(2022, 6, 9, 18, 15, 55, 70, DateTimeKind.Local).AddTicks(7513)
+                            UpdateAt = new DateTime(2022, 7, 3, 17, 51, 46, 882, DateTimeKind.Local).AddTicks(4873)
+                        },
+                        new
+                        {
+                            Id = new Guid("c3218118-cd72-4bc4-a033-3dd11263954d"),
+                            CreateAt = new DateTime(2022, 7, 3, 17, 51, 46, 882, DateTimeKind.Local).AddTicks(5252),
+                            Email = "medico@gmail.com",
+                            Name = "Medico",
+                            UpdateAt = new DateTime(2022, 7, 3, 17, 51, 46, 882, DateTimeKind.Local).AddTicks(5259)
                         });
+                });
+
+            modelBuilder.Entity("Domain.Entities.ConsultaEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FimIsolamentoSocial")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("InicioIsolamentoSocial")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IsolamentoSocial")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<string>("PessoaViva")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("ConsultaEntity");
+                });
+
+            modelBuilder.Entity("Domain.Entities.MedicoEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CEP")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(8)")
+                        .HasMaxLength(8);
+
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(13)")
+                        .HasMaxLength(13);
+
+                    b.Property<string>("CRM")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(16)")
+                        .HasMaxLength(16);
+
+                    b.Property<Guid>("ConsultaId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataNascimento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<int>("NumeroPredial")
+                        .HasColumnType("int")
+                        .HasMaxLength(12);
+
+                    b.Property<string>("Sexo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(2)")
+                        .HasMaxLength(2);
+
+                    b.Property<string>("Telefone")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(13)")
+                        .HasMaxLength(13);
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CPF")
+                        .IsUnique();
+
+                    b.HasIndex("CRM")
+                        .IsUnique();
+
+                    b.HasIndex("ConsultaId");
+
+                    b.HasIndex("Telefone")
+                        .IsUnique();
+
+                    b.ToTable("Medico");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("f097bd52-32a8-4a90-b230-fb52bcf23527"),
+                            CEP = "80250180",
+                            CPF = "33333333333",
+                            CRM = "4444444444444",
+                            ConsultaId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            CreateAt = new DateTime(2022, 7, 3, 20, 51, 46, 885, DateTimeKind.Utc).AddTicks(2004),
+                            DataNascimento = new DateTime(1982, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "Camila",
+                            NumeroPredial = 3334455,
+                            Sexo = "M",
+                            Telefone = "11111111111"
+                        },
+                        new
+                        {
+                            Id = new Guid("a5a70e53-1ca1-47fe-b0c5-85238251958e"),
+                            CEP = "80250180",
+                            CPF = "33333333333",
+                            CRM = "5555555555555",
+                            ConsultaId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            CreateAt = new DateTime(2022, 7, 3, 20, 51, 46, 885, DateTimeKind.Utc).AddTicks(2076),
+                            DataNascimento = new DateTime(1982, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Name = "José",
+                            NumeroPredial = 3334455,
+                            Sexo = "M",
+                            Telefone = "11111111111"
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.PacienteEntity", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<string>("CEP")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(13)")
+                        .HasMaxLength(13);
+
+                    b.Property<Guid>("ConsultaId")
+                        .HasColumnType("uniqueidentifier");
+
+                    b.Property<DateTime?>("CreateAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("DataNascimento")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FimIsolamentoSocial")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("InicioIsolamentoSocial")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("IsolamentoSocial")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(1)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(50)")
+                        .HasMaxLength(50);
+
+                    b.Property<int>("NumeroPredial")
+                        .HasColumnType("int")
+                        .HasMaxLength(12);
+
+                    b.Property<string>("PessoaViva")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(2)")
+                        .HasMaxLength(2);
+
+                    b.Property<string>("Sexo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(2)")
+                        .HasMaxLength(2);
+
+                    b.Property<string>("Telefone")
+                        .HasColumnType("nvarchar(13)")
+                        .HasMaxLength(13);
+
+                    b.Property<DateTime?>("UpdateAt")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("CPF")
+                        .IsUnique();
+
+                    b.HasIndex("ConsultaId");
+
+                    b.HasIndex("DataNascimento");
+
+                    b.HasIndex("FimIsolamentoSocial");
+
+                    b.HasIndex("InicioIsolamentoSocial");
+
+                    b.HasIndex("IsolamentoSocial");
+
+                    b.HasIndex("Name");
+
+                    b.HasIndex("NumeroPredial");
+
+                    b.HasIndex("Sexo");
+
+                    b.HasIndex("Telefone")
+                        .IsUnique()
+                        .HasFilter("[Telefone] IS NOT NULL");
+
+                    b.ToTable("Pacientes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = new Guid("39a607e6-e9a7-42a5-806b-25c541a35430"),
+                            CEP = "80250180",
+                            CPF = "33333333333",
+                            ConsultaId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            DataNascimento = new DateTime(1982, 2, 13, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FimIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InicioIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsolamentoSocial = " ",
+                            Name = "Arthur Fernando",
+                            NumeroPredial = 3334455,
+                            PessoaViva = "S",
+                            Sexo = "M",
+                            Telefone = "11111111111"
+                        },
+                        new
+                        {
+                            Id = new Guid("85e5360e-6315-43c5-9a57-ed0098afc09e"),
+                            CEP = "80250180",
+                            CPF = "33333333333",
+                            ConsultaId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            CreateAt = new DateTime(2022, 7, 3, 20, 51, 46, 884, DateTimeKind.Utc).AddTicks(8650),
+                            DataNascimento = new DateTime(1989, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FimIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InicioIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsolamentoSocial = " ",
+                            Name = "Daniel Paes",
+                            NumeroPredial = 3334455,
+                            PessoaViva = "S",
+                            Sexo = "M",
+                            Telefone = "11111111111"
+                        },
+                        new
+                        {
+                            Id = new Guid("da5e805d-fef8-4faa-817a-d8c45b1dffde"),
+                            CEP = "80250112",
+                            CPF = "33333333333",
+                            ConsultaId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            CreateAt = new DateTime(2022, 7, 3, 20, 51, 46, 884, DateTimeKind.Utc).AddTicks(8666),
+                            DataNascimento = new DateTime(1995, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FimIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InicioIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsolamentoSocial = " ",
+                            Name = "Nycolas ",
+                            NumeroPredial = 3334455,
+                            PessoaViva = "S",
+                            Sexo = "M",
+                            Telefone = "11111111111"
+                        },
+                        new
+                        {
+                            Id = new Guid("0f268eac-7bd2-4064-be3c-f11ce6cd85e4"),
+                            CEP = "80250111",
+                            CPF = "44444444444",
+                            ConsultaId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            CreateAt = new DateTime(2022, 7, 3, 20, 51, 46, 884, DateTimeKind.Utc).AddTicks(8671),
+                            DataNascimento = new DateTime(1985, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FimIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InicioIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsolamentoSocial = " ",
+                            Name = "João ",
+                            NumeroPredial = 3334455,
+                            PessoaViva = "S",
+                            Sexo = "M",
+                            Telefone = "11111111111"
+                        },
+                        new
+                        {
+                            Id = new Guid("28198310-1418-4ec0-be72-5457553435e6"),
+                            CEP = "80250111",
+                            CPF = "44444444444",
+                            ConsultaId = new Guid("00000000-0000-0000-0000-000000000000"),
+                            CreateAt = new DateTime(2022, 7, 3, 20, 51, 46, 884, DateTimeKind.Utc).AddTicks(8677),
+                            DataNascimento = new DateTime(1985, 4, 11, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            FimIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            InicioIsolamentoSocial = new DateTime(1, 1, 1, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            IsolamentoSocial = " ",
+                            Name = "Maria ",
+                            NumeroPredial = 3334455,
+                            PessoaViva = "S",
+                            Sexo = "F",
+                            Telefone = "11111111111"
+                        });
+                });
+
+            modelBuilder.Entity("Domain.Entities.MedicoEntity", b =>
+                {
+                    b.HasOne("Domain.Entities.ConsultaEntity", "Consulta")
+                        .WithMany("Medicos")
+                        .HasForeignKey("ConsultaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Domain.Entities.PacienteEntity", b =>
+                {
+                    b.HasOne("Domain.Entities.ConsultaEntity", "Consulta")
+                        .WithMany("Pacientes")
+                        .HasForeignKey("ConsultaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 #pragma warning restore 612, 618
         }
